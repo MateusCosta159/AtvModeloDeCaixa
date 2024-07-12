@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+    <style>
+        section{
+            display: flex;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+            background-color: #b9d6e4;
+            box-sizing: content-box;
+        }
+        .box1{
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+            background-color: #79d1ff;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Crie uma página HTML com dois elementos lado a lado. Ambos devem ter 150px de largura, 150px de altura e 20px de padding. Use box-sizing: content-box para o primeiro e box-sizing: border-box para o segundo. Dê um fundo diferente para cada caixa para distinguir facilmente. Verifique como o box-sizing afeta o tamanho total das caixas.
+    </p>
+    <section>
+    <div class="box">
+        Este é um exemplo de modelo de caixa
+    </div>
+    <div class="box1">
+        Este é um exemplo de modelo de caixa
+    </div>
+</section>
+    <p>
+        Tamanho da primeira caixa no navegador 190px x 190px
+    </p>
+    <p>
+        Tamanho da segunda caixa nop navegador 150px X 150px
+    </p>
+</body>
+</html>
